@@ -1372,7 +1372,7 @@ class HomeViewModel(
                 .first { it == null }
         }
         if (chooseApps) {
-            val added = patchBundleRepository.allBundlesInfoFlow.value.values
+            val added = patchBundleRepository.allBundlesInfoFlow.first().values
                 .filter { it.uid !in knownUids && it.listedApps().isNotEmpty() }
             added.lastOrNull()?.let { sourceAppsDialogUid = it.uid }
         }
