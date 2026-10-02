@@ -599,7 +599,7 @@ Uninstalling will permanently erase all app data"</string>
     <string name="patcher_option_paths_gone_title">Patch option files are missing</string>
     <string name="patcher_option_paths_gone_description">One or more patch options point to files that are no longer there. Remove the paths to patch without them, or put the files back and try again</string>
     <string name="patcher_option_paths_clear">Remove the paths and continue</string>
-    <string name="patcher_storage_permission_hint">Tip: Move files to /Android/data/app.morphe.manager/files/ - no extra permissions needed</string>
+    <string name="patcher_storage_permission_hint">Tip: Move files to /Android/data/com.shuhaibnc.morphemanager/files/ - no extra permissions needed</string>
 
     <!-- Patcher Screen - Patcher Steps -->
     <string name="patcher_step_group_preparing">Preparing</string>
@@ -1261,7 +1261,7 @@ Details: %2$s"</string>
     <string name="easter_egg_pill_blue_toast_again">Unplugged. The way back is where it always was</string>
 
     <!-- Shared strings -->
-    <string name="app_name" translatable="false">Morphe</string>
+    <string name="app_name" translatable="false">Morphe Clone</string>
     <string name="select_file">Select file</string>
     <!-- Label of a footer button beside "Close". Keep it short, a longer one moves the buttons onto two rows -->
     <string name="select_folder">Select folder</string>
